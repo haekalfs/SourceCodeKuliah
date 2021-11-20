@@ -51,7 +51,7 @@ if (User=="Y" or User=="y"):
     Matriks2 = []
 
     for i in range(1):
-            a, b, c = [int(x) for x in input("Input 3 Angka Untuk Matriks 1 Baris ke-1:\n").split(',' or ', ' or ' ,' or ' , ')]
+            a, b, c = [int(x) for x in input("Input 3 Angka Untuk Matriks 1 Baris ke-1: Format 1,2,3\n").split(',' or ', ' or ' ,' or ' , ')]
             valMatriks = [a, b, c]
             Matriks1.append(valMatriks)
             for n in range(1):
@@ -101,4 +101,4 @@ if (User=="Y" or User=="y"):
     hitungMatriks(Matriks1, Matriks2)
 
     print(" ")
-    codeOwner("Haekal : Ketua \nNadif, Fauzan, Rifkhy, Fariz : Anggota")
+    codeOwner("Haekal Sastradilaga : 19210677 \nNadif : 19, Fauzan : 19, Rifkhy : 19, Fariz : 19")
