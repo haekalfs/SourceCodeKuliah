@@ -54,14 +54,14 @@ if (User=="Y" or User=="y"):
             a, b, c = [int(x) for x in input("Input 3 Angka Untuk Matriks 1 Baris ke-1: Format 1,2,3\n").split(',' or ', ' or ' ,' or ' , ')]
             valMatriks = [a, b, c]
             Matriks1.append(valMatriks)
-            for n in range(1):
-                d, e, f = [int(x) for x in input("Input Baris ke-2:\n").split(',' or ', ' or ' ,' or ' , ')]
-                valMatriks = [d, e, f]
-                Matriks1.append(valMatriks)
-                for j in range(1):
-                    d, e, f = [int(x) for x in input("Input Baris ke-3:\n").split(',' or ', ' or ' ,' or ' , ')]
-                    valMatriks = [d, e, f]
-                    Matriks1.append(valMatriks)
+            
+            d, e, f = [int(x) for x in input("Input Baris ke-2:\n").split(',' or ', ' or ' ,' or ' , ')]
+            valMatriks = [d, e, f]
+            Matriks1.append(valMatriks)
+
+            d, e, f = [int(x) for x in input("Input Baris ke-3:\n").split(',' or ', ' or ' ,' or ' , ')]
+            valMatriks = [d, e, f]
+            Matriks1.append(valMatriks)
 
     print(" ")
     print("\r+\r")
@@ -71,14 +71,14 @@ if (User=="Y" or User=="y"):
             a, b, c = [int(x) for x in input("Input 3 Angka Untuk Matriks 2 Baris 1:\n").split(',' or ', ' or ' ,' or ' , ')]
             valMatriks = [a, b, c]
             Matriks2.append(valMatriks)
-            for n in range(1):
-                d, e, f = [int(x) for x in input("Input Baris ke-2:\n").split(',' or ', ' or ' ,' or ' , ')]
-                valMatriks = [d, e, f]
-                Matriks2.append(valMatriks)
-                for j in range(1):
-                    x, y, z = [int(x) for x in input("Input Baris ke-3:\n").split(',' or ', ' or ' ,' or ' , ')]
-                    valMatriks = [x, y, z]
-                    Matriks2.append(valMatriks)
+            
+            d, e, f = [int(x) for x in input("Input Baris ke-2:\n").split(',' or ', ' or ' ,' or ' , ')]
+            valMatriks2 = [d, e, f]
+            Matriks2.append(valMatriks2)
+            
+            x, y, z = [int(x) for x in input("Input Baris ke-3:\n").split(',' or ', ' or ' ,' or ' , ')]
+            valMatriks3 = [x, y, z]
+            Matriks2.append(valMatriks3)
 
     print(" ")
     print("Loading Data... Please Wait...")
