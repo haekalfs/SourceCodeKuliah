@@ -88,4 +88,4 @@ if (User=="Y" or User=="y"):
     hitungMatriks(Matriks1, Matriks2)
 
     print(" ")
-    codeOwner("Haekal Sastradilaga : 19210677 \nNadif : 19210865, Fauzan : 19211304, Rifkhy : 19210944, Fariz : 19")
+    codeOwner("Haekal Sastradilaga : 19210677 \nNadif : 19210865, Fauzan : 19211304, Rifkhy : 19210944, Fariz : 19211101")
