@@ -2,7 +2,7 @@ print("Soal Matriks Logika & Algoritma")
 Enter = input("Tekan Enter Untuk Melanjutkan...")
 print("Contoh Soal :")
 
-## Kode Def dibawah ini fungsinya adalah untuk mencetak list angka [[1,2,3],[1,2,3],[1,2,3]] menjadi bentuk matriks ordo 3x3##
+## Kode Def dibawah ini fungsinya adalah untuk mencetak dan merubah list angka [[1,2,3],[1,2,3],[1,2,3]] menjadi bentuk matriks ordo 3x3##
 #sehingga kita hanya perlu menulis fungsiPrint(matriks1) maka matriks 1 akan dicetak dalam bentuk ordo 3x3# 
 def fungsiPrint(valueDrPrint):
     for i in valueDrPrint:
@@ -28,7 +28,7 @@ print("Matriks 2 :")
 fungsiPrint(matriks1)
 print(" ")
 
-## Kode dibawah adalah kode fungsi untuk menghitung penjumlahan matriks yg dapat dipanggil kapan saja
+## Kode dibawah adalah kode fungsi dan rumus untuk menghitung penjumlahan matriks yg dapat dipanggil kapan saja
 # Sehingga kita hanya perlu menulis hitungMatriks(matriks1, matriks2)
 def hitungMatriks(valMatriks1, valMatriks2):
     for i in range(0, len(valMatriks1)):
@@ -55,15 +55,15 @@ if (User=="Y" or User=="y"):
     ##kode dibawah adalah input an untuk matriks1 dimana dibuat untuk menambahkan value yang diinput user ke dalam mylist##
     a, b, c = [int(x) for x in input("Input 3 Angka Untuk Matriks 1 Baris ke-1: Format 1,2,3\n").split(',' or ', ' or ' ,' or ' , ')]
     valMatriks = [a, b, c]
-    Matriks1.append(valMatriks)
+    Matriks1.append(valMatriks) ##kode append digunakan untuk menambahkan value inputan dr user ke mylist
             
     d, e, f = [int(x) for x in input("Input Baris ke-2:\n").split(',' or ', ' or ' ,' or ' , ')]
     valMatriks = [d, e, f]
-    Matriks1.append(valMatriks)
+    Matriks1.append(valMatriks) ##kode append digunakan untuk menambahkan value inputan dr user ke mylist
 
     d, e, f = [int(x) for x in input("Input Baris ke-3:\n").split(',' or ', ' or ' ,' or ' , ')]
     valMatriks = [d, e, f]
-    Matriks1.append(valMatriks)
+    Matriks1.append(valMatriks) ##kode append digunakan untuk menambahkan value inputan dr user ke mylist
 
     print(" ")
     print("\r+\r")
@@ -72,15 +72,15 @@ if (User=="Y" or User=="y"):
     ##kode dibawah adalah input an untuk matriks2 dimana dibuat untuk menambahkan value yang diinput user ke dalam mylist##
     a, b, c = [int(x) for x in input("Input 3 Angka Untuk Matriks 2 Baris 1:\n").split(',' or ', ' or ' ,' or ' , ')]
     valMatriks = [a, b, c]
-    Matriks2.append(valMatriks)
+    Matriks2.append(valMatriks) ##kode append digunakan untuk menambahkan value inputan dr user ke mylist
             
     d, e, f = [int(x) for x in input("Input Baris ke-2:\n").split(',' or ', ' or ' ,' or ' , ')]
     valMatriks2 = [d, e, f]
-    Matriks2.append(valMatriks2)
+    Matriks2.append(valMatriks2) ##kode append digunakan untuk menambahkan value inputan dr user ke mylist
             
     x, y, z = [int(x) for x in input("Input Baris ke-3:\n").split(',' or ', ' or ' ,' or ' , ')]
     valMatriks3 = [x, y, z]
-    Matriks2.append(valMatriks3)
+    Matriks2.append(valMatriks3) ##kode append digunakan untuk menambahkan value inputan dr user ke mylist
 
     print(" ")
     print("Loading Data... Please Wait...")
