@@ -42,10 +42,6 @@ if (User=="Y" or User=="y"):
     def codeOwner(nama):
         print("Tugas Kelompok =", nama)
 
-    def fungsiPrint(valueDrPrint):
-        for i in valueDrPrint:
-            print(i)
-
     a, b, c, d, e, f, g, h, i = [int(x) for x in input("Input 9 Angka Untuk Matriks 1 Ordo 3x3:\n").split(',' or ', ' or ' ,' or ' , ')]
     Matriks1 = [[a, b, c],[d, e, f], [g, h, i]]
 
@@ -60,13 +56,6 @@ if (User=="Y" or User=="y"):
     print("Nilai Matriks 2 :")
     fungsiPrint(Matriks2)
     print(" ")
-
-    def hitungMatriks(valMatriks1, valMatriks2):
-        for i in range(0, len(valMatriks1)):
-            kolomMatriks = []
-            for j in range(0, len(valMatriks1[0])):
-                kolomMatriks.append(valMatriks1[i][j] + valMatriks2[i][j])
-            print(kolomMatriks)
 
     print("Hasil dari Penjumlahan Matriks mu yaitu :")
     hitungMatriks(Matriks1, Matriks2)
