@@ -62,7 +62,7 @@ if (User=="Y" or User=="y"):
     print("\r+\r")
     print(" ")
 
-    a, b, c = [int(x) for x in input("Input 3 Angka Untuk Matriks 2 Baris 1:\n").split(',' or ', ' or ' ,' or ' , ')]
+    a, b, c = [int(x) for x in input("Input 3 Angka Untuk Matriks 2 Baris ke-1:\n").split(',' or ', ' or ' ,' or ' , ')]
     valMatriks = [a, b, c]
     Matriks2.append(valMatriks)
             
