@@ -54,8 +54,8 @@ if (User=="Y" or User=="y"):
     valMatriks = [d, e, f]
     Matriks1.append(valMatriks)
 
-    d, e, f = [int(x) for x in input("Input Baris ke-3:\n").split(',' or ', ' or ' ,' or ' , ')]
-    valMatriks = [d, e, f]
+    x, y, z, = [int(x) for x in input("Input Baris ke-3:\n").split(',' or ', ' or ' ,' or ' , ')]
+    valMatriks = [x, y, z]
     Matriks1.append(valMatriks)
 
     print(" ")
