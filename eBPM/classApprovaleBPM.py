@@ -29,7 +29,7 @@ if(userChoice=="Y" or userChoice=="y"):
     output.addPage(pdfTwo.getPage(0))
     output.addPage(fileReader.getPage(0))
 
-    outputStream = open(r"eBPM/outputFormApproval/Form Pengadaan (Approved).pdf", "wb")
+    outputStream = open(r"Form Pengadaan (Approved).pdf", "wb")
     output.write(outputStream)
     outputStream.close()
     print("-------------------------------------------------------------------")

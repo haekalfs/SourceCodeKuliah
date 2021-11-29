@@ -82,7 +82,7 @@ def startProgram():
         PengadaanBarang().barang() #Calling Class "PengadaanBarang"
         Sum = sum(totalHarga)
         createPDF()
-        pdf.output('eBPM/outputFormPengadaan/Form Pengadaan eBPM' + str(i) + '.pdf') 
+        pdf.output('Form Pengadaan eBPM' + str(i) + '.pdf') 
     #Output
     print("\nComputing... Please Wait... Creating Form....")
     print("-------------------------------------------------------------------")
